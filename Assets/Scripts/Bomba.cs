@@ -5,10 +5,29 @@ using UnityEngine;
 public class Bomba : MonoBehaviour
 {
     public GameObject bomba;
-    void Update()
-    {
+    public bool explotar = false;
+
+    public void Awake(){
+        Invoke("ExplotarBomba", 1.0f);
+    }
+
+    public void Update(){
         if(Input.GetButton("Explotar")){
-            Destroy(bomba);
+            explotar = true;
+            print(explotar);
         }
+    }
+
+    public void OnTriggerStay(Collider c){
+	    
+        if(explotar){
+            Destroy(c.gameObject);
+            Destroy(bomba);
+            explotar = false;
+        }
+    }
+
+    public void ExplotarBomba(){
+        explotar = true;
     }
 }

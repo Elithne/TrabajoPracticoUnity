@@ -6,8 +6,11 @@ public class DisparadorAutomatico : MonoBehaviour
 {
     public GameObject prefab;
 
-
     void Awake(){
-        Instantiate(prefab, transform.position, transform.rotation);        
+        InvokeRepeating("Disparar", 1.0f, 2.0f);
+    }
+
+    public void Disparar(){
+        Instantiate(prefab, transform.position, transform.rotation);
     }
 }
