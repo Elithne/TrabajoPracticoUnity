@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class DestructorTemporizado : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public int segundosDestruccion;
     void Awake()
     {
-        Invoke("Destruir", 2.0f);
+        Invoke("Destruir", segundosDestruccion);
     }
 
     public void Destruir(){

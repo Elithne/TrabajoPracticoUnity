@@ -15,6 +15,9 @@ GameObject:
   - component: {fileID: 5931051665499594753}
   - component: {fileID: -9071593584360645295}
   - component: {fileID: 2461784976767973942}
+  - component: {fileID: 5584214740895235191}
+  - component: {fileID: 5057730826422990547}
+  - component: {fileID: -7028136501360014091}
   m_Layer: 0
   m_Name: Jugador
   m_TagString: Untagged
@@ -142,3 +145,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidadMovimiento: 1
   velocidadRotacion: 50
+--- !u!114 &5584214740895235191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6098983892697846047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e0b12b16e7b584980b54fee8fd4c93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 100
+--- !u!65 &5057730826422990547
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6098983892697846047}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &-7028136501360014091
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6098983892697846047}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: Infinity
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
