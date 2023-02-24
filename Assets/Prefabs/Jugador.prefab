@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae730435c1c58f24a928a69dfe0359f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5466999930909942457, guid: c0e5d007e47a7544a8eda236313f3ae1, type: 3}
+  prefab: {fileID: 5466999930909942457, guid: fd9ffe7ad95cd624eb5ba2d5dc18e9e9, type: 3}
   nombreAccion: DispararBala
 --- !u!114 &-9071593584360645295
 MonoBehaviour:

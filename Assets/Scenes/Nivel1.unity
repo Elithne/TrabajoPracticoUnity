@@ -219,6 +219,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1602246870836460201, guid: 1f75a92ad9c52654b9599082e29719a1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bf197aa5af031de4ca9963c719d6b990, type: 2}
+    - target: {fileID: 6643756678452495893, guid: 1f75a92ad9c52654b9599082e29719a1, type: 3}
+      propertyPath: bonus
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6771061939489789744, guid: 1f75a92ad9c52654b9599082e29719a1, type: 3}
       propertyPath: m_Name
       value: VelocidadPowerUp (1)
@@ -319,7 +327,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504828070}
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -28.9, y: -1.4, z: -1.4}
+  m_LocalPosition: {x: -15.4, y: -1.4, z: -1.4}
   m_LocalScale: {x: 35.53006, y: 1, z: 26.387306}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -574,7 +582,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 715be8971b17b24498bf97bad8370b6a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -683,6 +691,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1602246870836460201, guid: 1f75a92ad9c52654b9599082e29719a1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bf197aa5af031de4ca9963c719d6b990, type: 2}
+    - target: {fileID: 6643756678452495893, guid: 1f75a92ad9c52654b9599082e29719a1, type: 3}
+      propertyPath: bonus
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6771061939489789744, guid: 1f75a92ad9c52654b9599082e29719a1, type: 3}
       propertyPath: m_Name
       value: VelocidadPowerUp
@@ -783,7 +799,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530027554}
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 27.2, y: -1.4, z: -1.4}
+  m_LocalPosition: {x: 10.3, y: -1.4, z: -1.4}
   m_LocalScale: {x: 35.53006, y: 1, z: 26.387306}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -925,7 +941,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932472723}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.82, y: -1.4, z: 14.4}
+  m_LocalPosition: {x: -0.82, y: -1.4, z: 7.89}
   m_LocalScale: {x: 62.050404, y: 1, z: 26.387306}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1022,7 +1038,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096335870}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.82, y: -1.4, z: -12.7}
+  m_LocalPosition: {x: -0.82, y: -1.4, z: -5.24}
   m_LocalScale: {x: 62.050404, y: 1, z: 26.387306}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1036,6 +1052,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7028136501360014091, guid: 0676e1aad416b1540b39e21095139927, type: 3}
+      propertyPath: m_Constraints
+      value: 122
+      objectReference: {fileID: 0}
     - target: {fileID: 2461784976767973942, guid: 0676e1aad416b1540b39e21095139927, type: 3}
       propertyPath: velocidadMovimiento
       value: 5
@@ -1084,6 +1104,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6098983892697846045, guid: 0676e1aad416b1540b39e21095139927, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: dd88776b533ccfa48b944679c539eb7d, type: 2}
     - target: {fileID: 6098983892697846047, guid: 0676e1aad416b1540b39e21095139927, type: 3}
       propertyPath: m_Name
       value: Jugador
