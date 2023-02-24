@@ -20,7 +20,7 @@ public class Bomba : MonoBehaviour
 
     public void OnTriggerStay(Collider c){
 	    
-        if(explotar){
+        if(explotar && c.gameObject.tag != "Boundaries"){
             Destroy(c.gameObject);
             Destroy(bomba);
             explotar = false;
