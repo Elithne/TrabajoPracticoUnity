@@ -17,8 +17,8 @@ GameObject:
   - component: {fileID: -5267563761147674219}
   - component: {fileID: 7202500944043058905}
   m_Layer: 0
-  m_Name: Bomba
-  m_TagString: Untagged
+  m_Name: BombaEnemigo
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4a440e901784974a9f354291542203c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  segundosDestruccion: 5
+  segundosDestruccion: 10
 --- !u!54 &-5267563761147674219
 Rigidbody:
   m_ObjectHideFlags: 0

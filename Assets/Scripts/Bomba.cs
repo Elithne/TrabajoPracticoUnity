@@ -8,7 +8,7 @@ public class Bomba : MonoBehaviour
     public bool explotar = false;
 
     public void Awake(){
-        Invoke("ExplotarBomba", 1.0f);
+        Invoke("ExplotarBomba", 7.0f);
     }
 
     public void Update(){
@@ -20,7 +20,7 @@ public class Bomba : MonoBehaviour
 
     public void OnTriggerStay(Collider c){
 	    
-        if(explotar){
+        if(explotar && c.gameObject.tag != "Boundaries"){
             Destroy(c.gameObject);
             Destroy(bomba);
             explotar = false;

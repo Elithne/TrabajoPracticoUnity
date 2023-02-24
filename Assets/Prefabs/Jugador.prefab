@@ -16,11 +16,10 @@ GameObject:
   - component: {fileID: -9071593584360645295}
   - component: {fileID: 2461784976767973942}
   - component: {fileID: 5584214740895235191}
-  - component: {fileID: 5057730826422990547}
   - component: {fileID: -7028136501360014091}
   m_Layer: 0
   m_Name: Jugador
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115,7 +114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae730435c1c58f24a928a69dfe0359f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5466999930909942457, guid: c0e5d007e47a7544a8eda236313f3ae1, type: 3}
+  prefab: {fileID: 5466999930909942457, guid: 347505f9a74ab764cbedf29e0bbc324f, type: 3}
   nombreAccion: DispararBala
 --- !u!114 &-9071593584360645295
 MonoBehaviour:
@@ -129,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae730435c1c58f24a928a69dfe0359f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 515630903027811648, guid: 541b9b41b1e005741aa0ee09331511a9, type: 3}
+  prefab: {fileID: 515630903027811648, guid: c579ffea838d43e42a0693d308c0be43, type: 3}
   nombreAccion: DispararBomba
 --- !u!114 &2461784976767973942
 MonoBehaviour:
@@ -158,19 +157,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 100
---- !u!65 &5057730826422990547
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6098983892697846047}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &-7028136501360014091
 Rigidbody:
   m_ObjectHideFlags: 0

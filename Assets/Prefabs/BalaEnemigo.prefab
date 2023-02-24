@@ -18,8 +18,8 @@ GameObject:
   - component: {fileID: -2677165328457204344}
   - component: {fileID: -3075171652561580468}
   m_Layer: 0
-  m_Name: Bala
-  m_TagString: Untagged
+  m_Name: BalaEnemigo
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidadX: 0
   velocidadY: 0
-  velocidadZ: 5
+  velocidadZ: -5
 --- !u!114 &-8592117853010272590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,6 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   danio: 10
+  disparador: {fileID: 5463422038566852040, guid: aa5564cad223afd428d86149106dc53d, type: 3}
 --- !u!114 &1367903977529933039
 MonoBehaviour:
   m_ObjectHideFlags: 0
